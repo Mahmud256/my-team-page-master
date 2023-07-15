@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding: 0 8%;
+    padding-top: 3%;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-title {
+    color: #000;
+    font-family: PT Serif;
+    font-size: 36px;
+    letter-spacing: -1.62px;
+    width: 50%;
+}
+
+.header-description {
+    width: 50%;
+}
+
+.p-title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.p-description {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    width: 65%;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.gallery img {
+    width: 285px;
+}
+
+.gallery {
+    width: 33%;
+    margin-top: 40px;
+}
+
+.rote-title {
+    position: relative;
+}
+
+.brand {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 38px;
+    right: 30px;
+    font-family: PT Serif;
+}
+
+.name {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.middle {
+    margin-top: 100px;
+}
+
+.main-last {
+    color: #A9A9A9;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.user {
+    color: #A9A9A9;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.hide{
+    display: none;
+}

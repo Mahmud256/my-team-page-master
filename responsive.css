@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+    .header-container { display: flex; flex-direction: column; }
+    .header-title { font-size: 36px; letter-spacing: -1.62px; width: 100%; }
+    .header-description {width: 100%;margin: 20px 0;}
+    .p-description { width: 80%; }
+    .gallery-container { display: grid; grid-template-columns: repeat(2, 1fr); flex-wrap: wrap; margin-bottom: 80px; }
+    .gallery { 
+        width: 50%; 
+        margin-top: 0;
+    }
+    .gallery img { width: 140px; }
+    .middle {
+      margin-top: 0;
+  }
+    .middle2 {margin-top: 30%;}
+    .brand { right: -90px; }
+    .name { font-size: 16px; }
+  }
+  
